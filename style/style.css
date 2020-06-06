@@ -1,0 +1,450 @@
+@font-face {
+    font-family: Myfuturaa;
+    src: url(../font/futur.ttf);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #222127;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 140px;
+    line-height: 0.9em;
+    color: #2C2B31;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2C2B31;
+    text-align: center;
+    font-size: 80px;
+}
+h3{
+    color: #C9C9CB;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+}
+h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2C2B31;
+}
+#home{
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+#home h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 140px;
+    line-height: 0.9em;
+    color: #222127;
+}
+#home p{
+    color: #cccccc;
+    text-align: left;
+    line-height: 2;
+    
+}
+#home .btn{
+    padding: 2% 5%;
+}
+#service{
+    padding: 5% 5%;
+    text-align: center;
+}
+#service i{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #000000;
+}
+#service .row{
+    background-color: #fff;
+    padding: 5%;
+}
+#contact{
+    padding: 5% 5%;
+}
+button{
+    background-color: #2C2B31;
+    border: solid 0.5px #fff;
+    padding: 2% 6%;
+    border-radius: 20px;
+    color: #C9C9CB;
+}
+button a{
+    color: #C9C9CB;
+    text-decoration: none;
+}
+button a:hover{
+    color: #C9C9CB;
+    text-decoration: none;
+}
+button:hover{
+    opacity: 0.5;
+}
+#about{
+    padding: 5%;
+}
+#about p{
+    color: #C9C9CB;
+}
+.skill{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-top: 20px;
+    margin-left: auto;
+}
+.nav-link{
+    margin: 0 20px;
+}
+.profile{
+    margin-left: 100px;
+    height: 300px;
+    opacity: 0.5;
+    border: solid 0.5px #707070;
+    box-shadow: #000000 20px 20px;
+}
+.profile:hover{
+    opacity: 1;
+    border: solid 0.5px #707070;
+    box-shadow: #000000 10px 10px;
+}
+.about-part{
+    padding: 5% 10%;
+    
+}
+#project{
+    padding: 5%;
+}
+#project img{
+    margin-top: 100px;
+    height: 250px;
+    width: 100%;
+    color: #2C2B31;
+    opacity: 0.5;
+}
+#project img:hover{
+    opacity: 1;
+}
+#project span a{
+    text-decoration: none;
+}
+span{
+    text-align: right;
+    color: #cccccc;
+    font-family: 'Roboto Mono', monospace;
+}
+.box{
+    background: #2C2B31;
+    color: #fff;
+    margin-top: 110px;
+    position: relative;
+    right: 30px;
+}
+.gamexo{
+    color: white;
+    text-align: left;
+    background: #2C2B31;
+    padding: 2% 4%;
+}
+.box-left{
+    background: #2C2B31;
+    margin-top: 110px;
+    position: relative;
+    left: 40px;
+}
+.swallow{
+    color: white;
+    text-align: right;
+    background: #2C2B31;
+    padding: 2% 4%;
+}
+.box-right{
+    background: #2C2B31;
+    margin-top: 110px;
+    position: relative;
+    right: 30px;
+}
+.supreme{
+    color: white;
+    text-align: left;
+    background: #2C2B31;
+    padding: 2% 4%;
+}
+.card{
+    margin-top: 150px;
+    background: #2C2B31;
+    color: #cccccc;
+    height: 300px;
+    text-align: left;
+    width: 18rem;
+}
+.card:hover{
+    bottom: 10px;
+    box-shadow: #000000 10px 10px;
+}
+.card-title{
+    color: #fff;
+    text-align: left;
+}
+.card-body{
+    padding: 5% 5%;
+}
+.card-footer{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+}
+.card i{
+    font-size: 40px;
+}
+.card h5{
+    margin-top: 20px;
+}
+.githubs{
+    margin-left: 110px;
+}
+.fa-github, .fa-globe{
+    color: #707070;
+    font-size: 25px;
+}
+.fa-github:hover, .fa-globe:hover{
+    color: #cccccc;
+}
+#contact p{
+    color: #cccccc;
+    text-align: center;
+    padding: 0 30%;
+}
+.email{
+    background-color: #2C2B31;
+    border: solid 0.5px #fff;
+    padding: 1% 2%;
+    border-radius: 20px;
+    color: #C9C9CB;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    color: #c9c9c9;
+    background-color: #2C2B31;
+    border: solid 0.5px #fff;
+    border-radius: 20px;
+    padding: 1% 2%;
+    text-align: center;
+}
+.btn:hover{
+    color: #c9c9c9;
+    opacity: 0.5;
+}
+.contact{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer p{
+    color: #cccccc;
+}
+.fa-facebook-square{
+    color: #707070;
+    font-size: 25px;
+
+}
+.fa-linkedin{
+    color: #707070;
+    font-size: 25px;
+
+}
+.fa-twitter-square{
+    color: #707070;
+    font-size: 25px;
+
+}
+.fa-instagram{
+    color: #707070;
+    font-size: 25px;
+}
+.fa-facebook-square:hover{
+    color: #cccccc;
+
+}
+.fa-linkedin:hover{
+    color: #cccccc;
+
+
+}
+.fa-twitter-square:hover{
+    color: #cccccc;
+
+
+}
+.fa-instagram:hover{
+    color: #cccccc;
+}
+.decor{
+    text-shadow: -0.5px -0.5px 0 #cccccc, 0.5px -0.5px 0 #cccccc, -0.5px 0.5px 0 #cccccc, 0.5px 0.5px 0 #cccccc;
+}
+/* Icon Spin */
+.hvr-icon-spin {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-icon-spin .hvr-icon {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+  .hvr-icon-spin:hover .hvr-icon, .hvr-icon-spin:focus .hvr-icon, .hvr-icon-spin:active .hvr-icon {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+/* To Top Button */
+
+.to-top {
+    background: #292b2c;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color: #f7f7f7;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  .to-top:hover{
+    background: black;
+    color: #cccccc;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+
+@media only screen and (max-width:768px)
+{
+    #home{
+        height: 100vh;
+    }
+    #home h1{
+        font-size: 80px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .reorder .row{
+        display: flex;
+        display: -ms-flex;
+        flex-direction: column;
+    }
+    .reorder .row .first{
+        order: 2;
+    }
+    .reorder .row .second{
+        order: 1;
+    }
+    #about img{
+        margin: 0 0 0 30px;
+    }
+    #about p{
+        margin-top:30px;
+    }
+    #service{
+        padding: 15% 30%;
+    }
+    .re-order .row{
+        display: flex;
+        display: -ms-flex;
+        flex-direction: column;
+    }
+    .re-order .row .pertama{
+        order: 2;
+    }
+    .re-order .row .kedua{
+        order: 1;
+    }
+    .box{
+        background: #2C2B31;
+        color: #fff;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: initial;
+        margin-top: -1px;
+    }
+    .box-left{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: initial;
+        margin-top: -1px;
+    }
+    .swallow{
+        text-align: left;
+    }
+    .box-right{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: initial;
+        margin-top: -1px;
+    }
+    .card{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: 300px;
+        width: 25rem;
+    }
+    footer{
+        margin-top: 50px;
+        padding: 2%;
+    }
+}
